@@ -16,14 +16,24 @@ function Home() {
   );
 }
 
+function About() {
+  return (
+    <div id = "about">
+        <p>what's it all about?</p>
+    </div>
+  )
+}
+
 function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* write an <About> component here */}
+      <Home />
+      <About />
     </div>
   );
 }
+
+
 
 export default App;
